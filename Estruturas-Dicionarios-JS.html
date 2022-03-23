@@ -1,0 +1,23 @@
+<script>
+
+cidades_estados={ 
+     "SC":["Floripa","Blumenau"], 
+     "RS":["Porto","Caxias"], 
+     "PR":["Curitiba", "Maringa"]
+};
+
+
+alert(cidades_estados.RS[1])
+
+//  Objetos MAP
+
+let carros = new Map()
+carros.set('Gol',["Volkswagem","Porsche"])
+carros.set('Uno', "Fiat")
+
+
+for (let [key, value] of carros) {
+    alert(`${key}: ${value}`)
+}
+
+</script>
